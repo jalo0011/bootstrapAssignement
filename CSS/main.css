@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One|Ubuntu:300");
+
+/******Color Scheme********
+$lightBlue: #FCEFFF;
+$lightMagenta: #9989E4;
+$teal: #A8BBD4;
+$darkdarkgreen: #1C403E;
+$lightgreen: #9CFFB9;
+
+serif
+fontfamily: "Patua One", "Times New Roman", Georgia, Serif;
+
+sans-serif
+fontfamily: Ubuntu, Helvetica, Arial, Sans-Serif;
+***************************/
+
+body {
+  color: #9CFFB9;
+  text-align: center;
+  background-color: #1C403E; }
+
+footer {
+  border-top: solid #EEE 2px; 
+  background-color: #FCEFFF;
+  color: #1C403E;}
+
+
+.row {
+  padding-top: 2rem; }
+
+.mapDiv {
+  padding-top: 2rem;
+  padding-bottom: 2rem; }
+
+.tipsJumbo {
+  height: 3rem; }
+
+.jumboTipsText {
+  line-height: 0; }
+
+.map {
+  border: 0.5rem solid #9CFFB9; }
+
+h1, h2, h3, h4 {
+ font-family: "Patua One","Times New Roman",Georgia,Serif;
+
+}
+p, a, dt, dd, button, label {
+    font-family: Ubuntu, Helvetica, Arial, Sans-Serif;
+}
+
+nav{
+    background-color: #A8BBD4;
+    color: #9989E4;
+}
+
+nav a:hover,button:hover{
+    transform:scale(1.1);
+    color:#1C403E;
+    
+}
+
+.jumbotron{
+    background-color:#1C403E;
+    color:#FCEFFF;
+}
+
+.lead a{
+    background-color:#FCEFFF;
+    color:#9989E4;
+    border: solid 2px #9989E4;
+}
+
+.lead a:hover{
+    background-color:#9989E4;
+    color:#FCEFFF;
+    border: solid 2px #9989E4;
+}
+
+.navbar-toggler-icon{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#1C403E' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+input[type="text"], input[type="email"], .form-control{
+    background-color:#FCEFFF;
+    border: solid 4px #9CFFB9;
+    color: #1C403E; 
+}
+
+input[type="text"]:focus, input[type="email"]:focus, .form-control:focus{
+    background-color:#A8BBD4;
+    color:#9CFFB9;
+    border-color:#9989E4;
+}
+input[type="text"]::placeholder, input[type="email"]::placeholder{
+    color:#1C403E;
+}
+
+.submit{
+    background-color:#FCEFFF;
+    color:#9989E4;
+    border: solid 2px #9989E4;
+}
+
+.submit:hover{
+    background-color:#9989E4;
+    color:#FCEFFF;
+    border: solid 2px #9989E4;
+}
+
+.card{
+    background-color:#A8BBD4;
+}
+
+small{
+    color:#9CFFB9;
+}
+
+
+
+
